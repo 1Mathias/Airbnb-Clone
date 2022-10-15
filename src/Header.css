@@ -1,5 +1,12 @@
 .header{
     display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    top:0;
+    background-color: white;
+    z-index: 100;
+    width: 100%;
 }
 .header_icon{
     object-fit: contain;
@@ -10,8 +17,22 @@
     display: flex;
     flex: 1;
     align-items: center;
+    height: 30px;
+    max-width: fit-content;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+    padding: 10px;
+}
+.header_center>input{
+    width: 250px;
+    border: none;
+    padding: 0px;
+    outline-width: 0;
 }
 .header_right{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width:15vw;
+    margin-right: 50px;
 }
